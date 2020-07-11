@@ -1,0 +1,90 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    
+}
+
+
+#maintitle{
+    font-size: 89px;
+    font-weight: 900;
+    color: #ffb300;
+    Line-Height: 79px;
+}
+
+p{ 
+    font-size: 21px;
+    font-weight: 600;
+    line-height:1.61;
+    margin-top: 34px;
+    margin-bottom: 34px;    
+}
+
+.main{
+    font-size: 21px;
+    font-weight: 600;
+    Line-height: 21px * 1.61;
+}
+
+.yellow{
+   font-weight: 900;
+   color: #ffb300;  
+   
+}
+
+.Article{
+    font-size: 34px;
+    font-weight: 600;
+    color:black   
+ }
+
+.div{
+    line-height: 1.61;
+    color:black;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.href{
+    font-size: 21px;
+    font-weight: 900;
+    color:#0037b3
+}
+
+.bold{
+    margin-top: 34px;
+    margin-bottom: 34px;
+    height: 5px;
+    width: 60%;
+    background-color: #99999999;
+}
+
+.isTablet {
+     display: none;
+}
+
+.isDesktop{
+     display: none;
+}
+
+@Media (min-width: 768px) {
+.isMobile{
+    display: none;
+}
+.isTablet{
+    display: block;
+ }
+}
+
+@Media (min-width: 1024px) {
+.isDesktop {
+        display: block;
+}
+.isTablet {
+    display: none;
+ }
+}
+
+
+    
+  
